@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-sfc-landing-page/static/css/main.7ae6fb46.css",
+    "main.js": "/test-sfc-landing-page/static/js/main.ea43dcde.js",
+    "static/js/787.6606bfd5.chunk.js": "/test-sfc-landing-page/static/js/787.6606bfd5.chunk.js",
+    "static/media/background.png": "/test-sfc-landing-page/static/media/background.fa0982345e71b79d796b.png",
+    "index.html": "/test-sfc-landing-page/index.html",
+    "main.7ae6fb46.css.map": "/test-sfc-landing-page/static/css/main.7ae6fb46.css.map",
+    "main.ea43dcde.js.map": "/test-sfc-landing-page/static/js/main.ea43dcde.js.map",
+    "787.6606bfd5.chunk.js.map": "/test-sfc-landing-page/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ae6fb46.css",
+    "static/js/main.ea43dcde.js"
+  ]
+}
