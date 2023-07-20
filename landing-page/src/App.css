@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body {
+  background-image: url('/public/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: content-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-group {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.landing-group li {
+  margin-right: 50px;
+  position: relative;
+  list-style-type: none;
+}
+
+.header-landing {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-section {
+  position: relative;
+  top: 30px;
+  left: 115px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.landing-group li {
+  margin-right: 50px;
+} 
+
+.main-landing-section {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px;
+  justify-content: space-evenly;
+}
+
+.landing-text-container {
+  width: 350px;
+}
+
+.landing-title {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.landing-text {
+  font-size: 14px;
+}
+
+.landing-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+/* Стили для кнопок "Recursos" и "Castellano" */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+  color: #333;
+}
+
+/* .dropdown:hover {
+  background-color: #f8f9fa;
+} */
+
+.dropdown .dropdown-toggle {
+  font-size: 16px;
+}
+
+/* Стили для выпадающих меню */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 8px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 4px 16px;
+}
+
+.dropdown-menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  color: #007bff;
 }
