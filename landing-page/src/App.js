@@ -17,7 +17,7 @@ function App() {
     <div className="landing-section">
       <div className="header-landing">
         <div className="logo-section">
-          <img src="/images/logo.svg" alt="Logo" width="150" />
+          <img src="images/logo.svg" alt="Logo" width="150" />
         </div>
         <ul className="landing-group">
           <li>Sobre nosotros</li>
@@ -72,9 +72,9 @@ function App() {
             ciencia colaborativa!
           </span>
           <div className="landing-links">
-            <img src="/images/googleplay.png" alt="Google Play" width="150" />
+            <img src="images/googleplay.png" alt="Google Play" width="150" />
             <img
-              src="/images/applestore.png"
+              src="images/applestore.png"
               alt="Apple Store"
               width="150"
               height="90"
@@ -83,7 +83,7 @@ function App() {
         </div>
         <div className="mobile-section" style={{ position: "relative" }}>
           <img
-            src="/images/items.png"
+            src="images/items.png"
             alt="items"
             width="200"
             style={{
@@ -94,7 +94,7 @@ function App() {
             }}
           />
           <img
-            src="/images/iphone.png"
+            src="images/iphone.png"
             alt="iphone"
             width="250"
             style={{ borderRadius: "40px" }}
